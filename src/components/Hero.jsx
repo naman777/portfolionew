@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants/index.js";
-
+import profile from '../assets/profile1.jpg'
 export const Hero = () => {
     return (
         <div className="border-b border-neutral-900 pb-4 lg:mb-35">
@@ -12,13 +12,13 @@ export const Hero = () => {
                         Full Stack Developer
                     </span>
                     <p className="my-2 max-w-xl py-6 font-light ml-4">{HERO_CONTENT}</p>
-                    
-                    <div className="flex flex-col lg:flex-row lg:space-x-4 mt-4 ml-4">
-                        <a href="https://codeplex.namankundra.in" className="mb-2 lg:mb-0 bg-purple-500 text-white py-2 px-4 rounded-lg text-center w-full lg:w-auto">CodePlex</a>
-                        <a href="https://toggledocs.namankundra.in" className="mb-2 lg:mb-0 bg-purple-500 text-white py-2 px-4 rounded-lg text-center w-full lg:w-auto">Toggle Docs</a>
-                        <a href="https://penspace.namankundra.in" className="mb-2 lg:mb-0 bg-purple-500 text-white py-2 px-4 rounded-lg text-center w-full lg:w-auto">PenSpace</a>
+                </div>
+                <div className="w-full lg:w-1/2 lg:p-8">
+                    <div className="flex justify-center">
+                        <img src={profile} alt="Hero Image" className="max-w-sm w-full h-auto rounded-2xl" />
                     </div>
                 </div>
+
             </div>
         </div>
     );
