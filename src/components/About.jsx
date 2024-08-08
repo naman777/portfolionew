@@ -1,4 +1,4 @@
-import aboutIMG from '../assets/IMG_9369.jpg'
+import aboutIMG from '../assets/profile3.jpg'
 import { ABOUT_TEXT } from '../constants'
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
             </div>
         </div>
 
-            <div className='w-full lg:w-1/2'>
+            <div className='w-full lg:w-1/2 items-center'>
                 <div className='flex justify-center lg:justify-start'>
                     <p className='my-2 max-w-xl py-6'>{ABOUT_TEXT}</p>
                 </div>

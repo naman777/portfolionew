@@ -8,13 +8,13 @@ const Projects = () => {
           {PROJECTS.map((project, index) => {
             return (
               <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
-                <div className='w-full lg:w-1/4'>
+                <div className='w-full lg:w-1/3 flex justify-center lg:justify-start'>
                   <a href={project.link} target="_blank" rel="noopener noreferrer">
                     <img src={project.image} alt={project.title} 
-                    width={150} height={150} className='mb-6 rounded'/>
+                    className='mb-6 rounded object-cover'/>
                   </a>
                 </div>
-                <div className='w-full max-w-xl lg:w-3/4'>
+                <div className='w-full max-w-xl lg:w-2/3 lg:pl-8'>
                   <a href={project.link} target="_blank" rel="noopener noreferrer">
                     <h6 className='mb-2 font-semibold hover:underline'>{project.title}</h6>
                   </a>

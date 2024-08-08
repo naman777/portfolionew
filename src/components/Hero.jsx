@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants/index.js";
-import profile from '../assets/profile1.jpg'
+import profile from '../assets/profile4.jpg'
 export const Hero = () => {
     return (
         <div className="border-b border-neutral-900 pb-4 lg:mb-35">
