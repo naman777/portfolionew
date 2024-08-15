@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/image.png";
 import project2 from "../assets/projects/image2.png";
 import project3 from "../assets/projects/image3.png";
+import project5 from "../assets/projects/image5.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 year of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My background in competitive programming has sharpened my problem-solving skills and ability to tackle complex algorithmic challenges. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -37,6 +38,14 @@ export const EXPERIENCES = [
   },
 ];
 export const PROJECTS = [
+  {
+    title: "Vibely",
+    image: project5,
+    description:
+      "A fully functional Video Conferencing platform that supports real-time video and audio communication functionality.",
+    technologies: [ "React", "Node.js", "TypeScript", "WebRTC", "Socket.io"],
+    link: "https://vibely.namankundra.in",
+  },
   {
     title: "CodePlex",
     image: project1,
