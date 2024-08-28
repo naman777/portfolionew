@@ -2,6 +2,7 @@ import project1 from "../assets/projects/image.png";
 import project2 from "../assets/projects/image2.png";
 import project3 from "../assets/projects/image3.png";
 import project5 from "../assets/projects/image5.png";
+import project6 from "../assets/projects/image6.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 year of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My background in competitive programming has sharpened my problem-solving skills and ability to tackle complex algorithmic challenges. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -38,6 +39,15 @@ export const EXPERIENCES = [
   },
 ];
 export const PROJECTS = [
+  {
+    title: "Whack a Mole",
+    image: project6,
+    description:
+      "Developed a real-time multiplayer Whack A Mole game with competitive gameplay, integrating room creation, player matchmaking, and score tracking.",
+    technologies: [ "React", "Node.js", "WebSockets"],
+    link: "https://whack-a-mole-vert-nu.vercel.app/",
+
+  },
   {
     title: "Vibely",
     image: project5,
